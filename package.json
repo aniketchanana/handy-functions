@@ -1,0 +1,27 @@
+{
+  "name": "@code-help/handy-functions",
+  "version": "1.0.0",
+  "description": "some handy js functions for solving coding problem",
+  "scripts": {
+    "build": "tsc",
+    "buildAndPublish": "tsc && npm publish --access public"
+  },
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniketchanana/handy-functions.git"
+  },
+  "author": "aniket",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aniketchanana/handy-functions/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/aniketchanana/handy-functions#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
